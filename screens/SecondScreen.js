@@ -39,6 +39,7 @@ export default class FirstScreen extends Component {
 
 
     function choose_restaurant(all_restaurants){
+      // Chad's functioon blows!
       let rand_int = getRandomInt(0, all_restaurants.length-1);
       if (all_restaurants[rand_int]) {
 
